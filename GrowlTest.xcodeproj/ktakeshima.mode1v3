@@ -274,7 +274,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>7</integer>
+									<integer>5</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -317,7 +317,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>GrowlBox.m</string>
+								<string>GrowlTestViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -325,21 +325,21 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>GrowlBox.m</string>
+										<string>GrowlTestViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>845CCDD311CF91B50007F16E</string>
+										<string>845CCDE011CF93A40007F16E</string>
 										<key>history</key>
 										<array>
 											<string>845CCD7C11CF8FA60007F16E</string>
 											<string>845CCD7D11CF8FA60007F16E</string>
 											<string>845CCDAB11CF90B30007F16E</string>
-											<string>845CCDC911CF919C0007F16E</string>
 											<string>845CCDCA11CF919C0007F16E</string>
 											<string>845CCDCB11CF919C0007F16E</string>
-											<string>845CCDD011CF91A90007F16E</string>
-											<string>845CCDD111CF91A90007F16E</string>
+											<string>845CCDD611CF93570007F16E</string>
+											<string>845CCDDB11CF938B0007F16E</string>
+											<string>845CCDDC11CF938B0007F16E</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>

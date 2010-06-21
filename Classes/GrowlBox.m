@@ -45,6 +45,7 @@
 {
   int index = [growlArray indexOfObject:sender];
   [growlArray replaceObjectAtIndex:index withObject:empty];
+  [sender release];
 }
 
 - (void)dealloc
