@@ -48,6 +48,7 @@
   self.alpha = 0;
   [UIView commitAnimations];
   [delegate didFinishedHide:self];
+  [self release];
 }
 
 @end

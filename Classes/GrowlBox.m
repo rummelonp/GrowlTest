@@ -24,14 +24,17 @@
 {
   BOOL isLast = YES;
   int index = 0;
-  for (int growlCount = [growlArray count]; index < growlCount; index += 1) {
+  int growlCount = [growlArray count];
+  while (index < growlCount && isLast == YES) {
     if ([growlArray objectAtIndex:index] == empty) {
       isLast = NO;
-      break;
+    } else {
+      index += 1;
     }
   }
   CGRect rect = CGRectMake(0, 0 + index * (growlSize.height + 5), growlSize.width, growlSize.height);
   Growl* growl = [[Growl alloc] initWithFrame:rect withObject:self withString:string];
+  
   [self addSubview:growl];
   [growl show];
   if (isLast) {
